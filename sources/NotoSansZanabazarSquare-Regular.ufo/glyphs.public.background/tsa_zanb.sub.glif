@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tsa_zanb.sub" format="2">
+	<advance width="0"/>
+	<outline>
+		<component base="_part.flag" xOffset="-189" yOffset="-858"/>
+	</outline>
+</glyph>

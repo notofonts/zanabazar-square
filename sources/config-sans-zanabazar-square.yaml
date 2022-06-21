@@ -1,0 +1,8 @@
+buildVariable: false
+familyName: Noto Sans Zanabazar Square
+googleFonts: true
+includeSubsets:
+- from: Noto Sans
+  name: GF_Latin_Core
+sources:
+- NotoSansZanabazarSquare.designspace
