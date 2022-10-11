@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[7] NotoSansZanabazarSquare-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+<details><summary><b>[6] NotoSansZanabazarSquare-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
 * ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
@@ -35,10 +35,6 @@ The following glyphs do not have the recommended number of contours:
 	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -64,7 +60,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
 
-	* And 67 more.
+	* And 66 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -78,7 +74,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 7 | 111 | 7 | 102 | 0 |
+| 0 | 0 | 6 | 111 | 7 | 103 | 0 |
 | 0% | 0% | 3% | 49% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
