@@ -12,7 +12,7 @@
 
 # Prefix: Languagesystems
 languagesystem DFLT dflt;
-languagesystem DFLT SAN;
+languagesystem zanb dflt;
 
 # Prefix: ref_gsub
 lookup InitialRaContext {
