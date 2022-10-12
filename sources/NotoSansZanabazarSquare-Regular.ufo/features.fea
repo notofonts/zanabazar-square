@@ -13,6 +13,7 @@
 # Prefix: Languagesystems
 languagesystem DFLT dflt;
 languagesystem zanb dflt;
+languagesystem zanb SAN;
 
 # Prefix: ref_gsub
 lookup InitialRaContext {
@@ -124,14 +125,14 @@ lookup finalVaChained;
 } ccmp;
 
 feature rclt {
-script DFLT;
+script zanb;
 language SAN;
 lookup AltBelowContext;
 lookup AltAboveContext;
 lookup AltAIAU;
 lookup AltFlagsContext;
 
-script DFLT;
+script zanb;
 language dflt;
 lookup ShortHeadContext;
 lookup ShortSubjoinedContext;
