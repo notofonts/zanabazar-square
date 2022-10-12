@@ -74,8 +74,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 6 | 111 | 7 | 103 | 0 |
-| 0% | 0% | 3% | 49% | 3% | 45% | 0% |
+| 0 | 0 | 6 | 110 | 7 | 104 | 0 |
+| 0% | 0% | 3% | 48% | 3% | 46% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
