@@ -10,6 +10,8 @@
 
 @MA3 = [ u_zanb u_zanb.wide ue_zanb ue_zanb.wide ];
 
+@subjoined = [a_zanb.sub ka_zanb.sub kha_zanb.sub ga_zanb.sub gha_zanb.sub nga_zanb.sub ca_zanb.sub cha_zanb.sub ja_zanb.sub nya_zanb.sub tta_zanb.sub ttha_zanb.sub dda_zanb.sub ddha_zanb.sub nna_zanb.sub ta_zanb.sub tha_zanb.sub da_zanb.sub dha_zanb.sub na_zanb.sub pa_zanb.sub pha_zanb.sub ba_zanb.sub bha_zanb.sub ma_zanb.sub tsa_zanb.sub tsha_zanb.sub dza_zanb.sub dzha_zanb.sub zha_zanb.sub za_zanb.sub aa_zanb.sub ya_zanb.sub ra_zanb.sub la_zanb.sub va_zanb.sub sha_zanb.sub ssa_zanb.sub sa_zanb.sub ha_zanb.sub kssa_zanb.sub];
+
 # Prefix: Languagesystems
 languagesystem DFLT dflt;
 languagesystem zanb dflt;
@@ -20,6 +22,104 @@ lookup InitialRaContext {
 	lookupflag 0;
 	sub initialRa_zanb' [a_zanb ka_zanb kha_zanb ga_zanb gha_zanb nga_zanb ca_zanb cha_zanb ja_zanb nya_zanb tta_zanb ttha_zanb dda_zanb ddha_zanb nna_zanb ta_zanb tha_zanb da_zanb dha_zanb na_zanb pa_zanb pha_zanb ba_zanb bha_zanb ma_zanb tsa_zanb tsha_zanb dza_zanb dzha_zanb zha_zanb za_zanb aa_zanb ya_zanb ra_zanb la_zanb va_zanb sha_zanb ssa_zanb sa_zanb ha_zanb kssa_zanb ] by initialRa_zanb subjoiner_zanb;
 } InitialRaContext;
+
+lookup addRaFirst {
+		sub a_zanb.sub by initialRa_zanb a_zanb.sub;
+	sub ka_zanb.sub by initialRa_zanb ka_zanb.sub;
+	sub kha_zanb.sub by initialRa_zanb kha_zanb.sub;
+	sub ga_zanb.sub by initialRa_zanb ga_zanb.sub;
+	sub gha_zanb.sub by initialRa_zanb gha_zanb.sub;
+	sub nga_zanb.sub by initialRa_zanb nga_zanb.sub;
+	sub ca_zanb.sub by initialRa_zanb ca_zanb.sub;
+	sub cha_zanb.sub by initialRa_zanb cha_zanb.sub;
+	sub ja_zanb.sub by initialRa_zanb ja_zanb.sub;
+	sub nya_zanb.sub by initialRa_zanb nya_zanb.sub;
+	sub tta_zanb.sub by initialRa_zanb tta_zanb.sub;
+	sub ttha_zanb.sub by initialRa_zanb ttha_zanb.sub;
+	sub dda_zanb.sub by initialRa_zanb dda_zanb.sub;
+	sub ddha_zanb.sub by initialRa_zanb ddha_zanb.sub;
+	sub nna_zanb.sub by initialRa_zanb nna_zanb.sub;
+	sub ta_zanb.sub by initialRa_zanb ta_zanb.sub;
+	sub tha_zanb.sub by initialRa_zanb tha_zanb.sub;
+	sub da_zanb.sub by initialRa_zanb da_zanb.sub;
+	sub dha_zanb.sub by initialRa_zanb dha_zanb.sub;
+	sub na_zanb.sub by initialRa_zanb na_zanb.sub;
+	sub pa_zanb.sub by initialRa_zanb pa_zanb.sub;
+	sub pha_zanb.sub by initialRa_zanb pha_zanb.sub;
+	sub ba_zanb.sub by initialRa_zanb ba_zanb.sub;
+	sub bha_zanb.sub by initialRa_zanb bha_zanb.sub;
+	sub ma_zanb.sub by initialRa_zanb ma_zanb.sub;
+	sub tsa_zanb.sub by initialRa_zanb tsa_zanb.sub;
+	sub tsha_zanb.sub by initialRa_zanb tsha_zanb.sub;
+	sub dza_zanb.sub by initialRa_zanb dza_zanb.sub;
+	sub dzha_zanb.sub by initialRa_zanb dzha_zanb.sub;
+	sub zha_zanb.sub by initialRa_zanb zha_zanb.sub;
+	sub za_zanb.sub by initialRa_zanb za_zanb.sub;
+	sub aa_zanb.sub by initialRa_zanb aa_zanb.sub;
+	sub ya_zanb.sub by initialRa_zanb ya_zanb.sub;
+	sub ra_zanb.sub by initialRa_zanb ra_zanb.sub;
+	sub la_zanb.sub by initialRa_zanb la_zanb.sub;
+	sub va_zanb.sub by initialRa_zanb va_zanb.sub;
+	sub sha_zanb.sub by initialRa_zanb sha_zanb.sub;
+	sub ssa_zanb.sub by initialRa_zanb ssa_zanb.sub;
+	sub sa_zanb.sub by initialRa_zanb sa_zanb.sub;
+	sub ha_zanb.sub by initialRa_zanb ha_zanb.sub;
+	sub kssa_zanb.sub by initialRa_zanb kssa_zanb.sub;
+} addRaFirst;
+
+lookup deleteRa {
+	# We've inserted a glyph, so now instead of sitting on the
+	# initial ra (where the lookup was triggered), we're sitting
+	# on the subjoined consonant.
+	sub a_zanb.sub initialRa_zanb  by a_zanb.sub ;
+	sub ka_zanb.sub initialRa_zanb  by ka_zanb.sub ;
+	sub kha_zanb.sub initialRa_zanb  by kha_zanb.sub ;
+	sub ga_zanb.sub initialRa_zanb  by ga_zanb.sub ;
+	sub gha_zanb.sub initialRa_zanb  by gha_zanb.sub ;
+	sub nga_zanb.sub initialRa_zanb  by nga_zanb.sub ;
+	sub ca_zanb.sub initialRa_zanb  by ca_zanb.sub ;
+	sub cha_zanb.sub initialRa_zanb  by cha_zanb.sub ;
+	sub ja_zanb.sub initialRa_zanb  by ja_zanb.sub ;
+	sub nya_zanb.sub initialRa_zanb  by nya_zanb.sub ;
+	sub tta_zanb.sub initialRa_zanb  by tta_zanb.sub ;
+	sub ttha_zanb.sub initialRa_zanb  by ttha_zanb.sub ;
+	sub dda_zanb.sub initialRa_zanb  by dda_zanb.sub ;
+	sub ddha_zanb.sub initialRa_zanb  by ddha_zanb.sub ;
+	sub nna_zanb.sub initialRa_zanb  by nna_zanb.sub ;
+	sub ta_zanb.sub initialRa_zanb  by ta_zanb.sub ;
+	sub tha_zanb.sub initialRa_zanb  by tha_zanb.sub ;
+	sub da_zanb.sub initialRa_zanb  by da_zanb.sub ;
+	sub dha_zanb.sub initialRa_zanb  by dha_zanb.sub ;
+	sub na_zanb.sub initialRa_zanb  by na_zanb.sub ;
+	sub pa_zanb.sub initialRa_zanb  by pa_zanb.sub ;
+	sub pha_zanb.sub initialRa_zanb  by pha_zanb.sub ;
+	sub ba_zanb.sub initialRa_zanb  by ba_zanb.sub ;
+	sub bha_zanb.sub initialRa_zanb  by bha_zanb.sub ;
+	sub ma_zanb.sub initialRa_zanb  by ma_zanb.sub ;
+	sub tsa_zanb.sub initialRa_zanb  by tsa_zanb.sub ;
+	sub tsha_zanb.sub initialRa_zanb  by tsha_zanb.sub ;
+	sub dza_zanb.sub initialRa_zanb  by dza_zanb.sub ;
+	sub dzha_zanb.sub initialRa_zanb  by dzha_zanb.sub ;
+	sub zha_zanb.sub initialRa_zanb  by zha_zanb.sub ;
+	sub za_zanb.sub initialRa_zanb  by za_zanb.sub ;
+	sub aa_zanb.sub initialRa_zanb  by aa_zanb.sub ;
+	sub ya_zanb.sub initialRa_zanb  by ya_zanb.sub ;
+	sub ra_zanb.sub initialRa_zanb  by ra_zanb.sub ;
+	sub la_zanb.sub initialRa_zanb  by la_zanb.sub ;
+	sub va_zanb.sub initialRa_zanb  by va_zanb.sub ;
+	sub sha_zanb.sub initialRa_zanb  by sha_zanb.sub ;
+	sub ssa_zanb.sub initialRa_zanb  by ssa_zanb.sub ;
+	sub sa_zanb.sub initialRa_zanb  by sa_zanb.sub ;
+	sub ha_zanb.sub initialRa_zanb  by ha_zanb.sub ;
+	sub kssa_zanb.sub initialRa_zanb  by kssa_zanb.sub ;
+} deleteRa;
+
+lookup SwapInitialRaSub {
+	# USE reorders cluster-initial ra to be after the consonant,
+	# which given the fact that it's supposed to cluster-initial
+	# is a bit useless. We have to undo this. (See #8)
+	sub @subjoined' lookup addRaFirst initialRa_zanb' lookup deleteRa;
+} SwapInitialRaSub;
 
 lookup SubJoinedForms {
 	lookupflag 0;
@@ -127,6 +227,7 @@ lookup finalVaChained;
 feature rclt {
 script zanb;
 language SAN;
+lookup SwapInitialRaSub;
 lookup AltBelowContext;
 lookup AltAboveContext;
 lookup AltAIAU;
@@ -134,6 +235,7 @@ lookup AltFlagsContext;
 
 script zanb;
 language dflt;
+lookup SwapInitialRaSub;
 lookup ShortHeadContext;
 lookup ShortSubjoinedContext;
 lookup AltBelowContext;
