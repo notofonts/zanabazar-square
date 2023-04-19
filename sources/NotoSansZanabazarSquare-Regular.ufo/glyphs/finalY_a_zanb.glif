@@ -4,6 +4,7 @@
   <guideline x="427" y="-56" angle="0"/>
   <guideline x="-419" y="-56" angle="0"/>
   <anchor x="-420" y="-80" name="_bottom"/>
+  <anchor x="-420" y="-392" name="bottom"/>
   <anchor x="-177" y="-317" name="bottom_right"/>
   <outline>
     <contour>
