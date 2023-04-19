@@ -1,6 +1,11 @@
 {
 	"tests": [
 		{
+			"input": "𑨋𑨻𑨁𑨳𑨋𑨼𑨳",
+			"expectation": "ka_zanb=0+840|finalYa_zanb=0@0,-6+0|i_zanb=0@-7,-20+0|finalConsonantMark_zanb=0@-137,-298+0|ka_zanb=4+840|finalRa_zanb=4@0,14+0|finalConsonantMark_zanb=4@-137,-278+0",
+			"note": "#9"
+		},
+		{
 			"input": "𑨋𑨺𑨋",
 			"expectation" : "ka_zanb=0+840|initialRa_zanb=1+840|ka_zanb.short=1@0,458+0",
 			"note": "#8"
