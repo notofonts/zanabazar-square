@@ -118,6 +118,9 @@ lookup SwapInitialRaSub {
 	# USE reorders cluster-initial ra to be after the consonant,
 	# which given the fact that it's supposed to cluster-initial
 	# is a bit useless. We have to undo this. (See #8)
+	sub @subjoined' lookup addRaFirst @subjoined' @subjoined' @subjoined' initialRa_zanb' lookup deleteRa;
+	sub @subjoined' lookup addRaFirst @subjoined' @subjoined' initialRa_zanb' lookup deleteRa;
+	sub @subjoined' lookup addRaFirst @subjoined' initialRa_zanb' lookup deleteRa;
 	sub @subjoined' lookup addRaFirst initialRa_zanb' lookup deleteRa;
 } SwapInitialRaSub;
 
